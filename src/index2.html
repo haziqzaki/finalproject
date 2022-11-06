@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>CRUD App</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="photon.min.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+
+  </head>
+  <body>
+    <div class="w3-top">
+        <div class="w3-row w3-padding w3-black">
+          <div class="w3-col s3">
+            <a href="file:///C:/Users/Predator/OneDrive/Desktop/OOP/to-do/GoHike/src/index.html" class="w3-button w3-block w3-black">HOME</a>
+          </div>
+          <div class="w3-col s3">
+            <a href="file:///C:/Users/Predator/OneDrive/Desktop/OOP/to-do/GoHike/src/index2.html" class="w3-button w3-block w3-black">Save data</a>
+          </div>
+          <div class="w3-col s3">
+            <a href="file:///C:/Users/Predator/OneDrive/Desktop/OOP/to-do/GoHike/src/weathercheck.html" class="w3-button w3-block w3-black">CHECK WEATHER</a>
+          </div>
+          <div class="w3-col s3">
+            <a href="#" onclick="close_window();return false;" class="w3-button w3-block w3-black">EXIT</a>
+          </div>
+        </div>
+      </div>    
+    <div class="mainWrapper">
+      <h1>SAVE DATA.</h1>
+
+      <form>
+        <div class="form-group">
+          <label>File name</label>
+          <input id="fileName" type="text" class="form-control">
+        </div>
+
+        <div class="form-group">
+          <label>Content</label>
+          <textarea id="fileContents" class="form-control" rows="5"></textarea>
+
+        </div>
+      </form>
+      <button id="btnCreate" class="btn btn-default">Create</button>
+      <button id="btnRead" class="btn btn-default">Read</button>
+      <button id="btnDelete" class="btn btn-default">Delete</button>
+
+    
+    </div>
+
+    <script src="main.js">
+    </script>
+    <script>
+            function close_window() {
+  if (confirm("Close Window?")) {
+    close();
+  }
+}
+    </script>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+h1{
+    color: whitesmoke;
+  }
+  .mainWrapper{
+    position: relative;
+    top: 10%;
+    margin: 25px;
+  }
+body{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(https://cdn.unenvironment.org/2022-09/nicolai-kramer-unsplash.jpg);
+}
+.form-group{
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+}
